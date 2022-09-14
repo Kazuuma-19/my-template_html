@@ -6,7 +6,7 @@ header
 
 @use "../../global" as g;
 h1 {
-  color: green;
+  color: yellow;
   font-weight: bold;
 
   @include g.mq(xl) {

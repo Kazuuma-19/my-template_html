@@ -25,7 +25,7 @@ const babel = require('gulp-babel');
 const uglify = require('gulp-uglify');
 
 //related server
-const browserSync = require('browser-sync');
+// const browserSync = require('browser-sync');
 
 const dir = {
 	dest: 'dest',
