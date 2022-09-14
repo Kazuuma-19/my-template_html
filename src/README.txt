@@ -11,6 +11,13 @@ resetとbaseのみ配置
 
 ■global
 役割：サイト内共通の設定が入る（カラー、ブレイクポイントなど）
+<breakpoint, color使い方>
+記述方法
+g.mq(sm) {
+  .header {
+    color: g.$mainColor;
+  }
+}
 
 ■layout
 役割：レイアウトを作るコードが入る
@@ -30,3 +37,5 @@ header, works, footerなど
 
 より詳細は下記サイト参照
 https://moshashugyo.com/media/moshashugyo-css-design
+
+----------------------------------------

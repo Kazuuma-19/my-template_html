@@ -1,27 +1,26 @@
 @use "../global" as *;
 
-%container {
-  width: 92%;
-  margin-right: auto;
-  margin-left: auto;
-}
+// %container {
+//   width: 92%;
+//   margin-right: auto;
+//   margin-left: auto;
+// }
 
-.ly_container-sm {
-  @extend %container;
-  max-width: $contentWidthS;
-}
+// .ly_container-sm {
+//   @extend %container;
+// }
 
-.l-container {
-  @extend %container;
-  max-width: $contentWidth;
-}
+// .l-container {
+//   @extend %container;
+//   max-width: $contentWidth;
+// }
 
-.ly_container-lg {
-  @extend %container;
-  max-width: $contentWidthL;
-}
+// .ly_container-lg {
+//   @extend %container;
+//   max-width: $contentWidthL;
+// }
 
-.ly_container-xl {
-  @extend %container;
-  max-width: 1400px;
-}
+// .ly_container-xl {
+//   @extend %container;
+//   max-width: 1400px;
+// }
